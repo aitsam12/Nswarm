@@ -16,7 +16,7 @@ Both scenarios use a common architecture:
 
 ## System Overview
 
-![System Overview](overview_pic2_cropped.pdf)
+![System Overview](overview_pic2_cropped-1.png)
 
 *Figure 1: End-to-end neuromorphic perception–SpiNNaker–swarm control pipeline used in the experiments.*
 
@@ -33,24 +33,12 @@ Both scenarios use a common architecture:
 │   ├── spinnaker_scenarioA.py          # SpiNNaker interface (multi-obstacle, Scenario A)
 │   ├── swarm_scenarioA.py              # Swarm/obstacle visualisation
 │   ├── fast_blobs*.so                  # Precompiled fast blob detector
-│   ├── trackers_log.csv                # Perception-side tracking log (grid + centroids)
-│   ├── spinnaker_multi_obstacles_*.csv # SpiNNaker spike log (Scenario A)
-│   ├── swarm_full_log.csv              # Swarm log (Scenario A)
-│   ├── orbit_speed_stratified_*.csv    # Ground-truth obstacle orbits
-│   └── figures/
-│       ├── block_scenarioA_cropped.pdf # Block diagram (paper)
-│       └── good_heatmap.png            # GT vs perceived heatmap (paper)
 │
 ├── scenario_B/
 │   ├── perception_scenarioB2.py        # Event-based perception + tracking (Scenario B)
 │   ├── spinnaker_scenarioB.py          # SpiNNaker interface (swarm repulsion)
 │   ├── swarm_scenarioB.py              # Swarm simulation (baseline + controlled)
-│   ├── fast_blobs*.so                  # Precompiled fast blob detector
-│   ├── swarm_scenarioB_baseline.csv    # Baseline swarm positions/collisions
-│   ├── swarm_positions_cropped.csv     # Controlled swarm positions, time-aligned
-│   └── figures/
-│       └── block_scenarioB_cropped.pdf # Block diagram (paper)
-│
+│   ├── fast_blobs*.so                  # Precompiled fast blob detecto
 │
 └── README.md
 
