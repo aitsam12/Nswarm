@@ -14,6 +14,12 @@ Both scenarios use a common architecture:
 2. **Event-Based Perception Pipeline** (event camera + fast blob detection + multi-object tracking)  
 3. **SpiNNaker Interface** (grid encoding, spike injection, attractor dynamics, repulsion output)  
 
+## System Overview
+
+![System Overview](overview_pic2_cropped.png)
+*Figure 1: End-to-end neuromorphic perception–SpiNNaker–swarm control pipeline used in the experiments.*
+
+
 ---
 
 ## Repository Layout
