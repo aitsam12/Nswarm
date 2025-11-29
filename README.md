@@ -18,14 +18,14 @@ Both scenarios use a common architecture:
 
 ![System Overview](overview_pic2_cropped-1.png)
 
-*Figure 1: End-to-end neuromorphic perception–SpiNNaker–swarm control pipeline used in the experiments.*
+End-to-end neuromorphic perception–SpiNNaker–swarm control pipeline used in the experiments.*
 
 
 ---
 
 ## Repository Layout
 
-```text
+
 .
 ├── scenario_A/
 │   ├── perception_scenarioA2.py        # Event-based perception + tracking (Scenario A)
@@ -41,6 +41,8 @@ Both scenarios use a common architecture:
 │   ├── fast_blobs*.so                  # Precompiled fast blob detecto
 │
 └── README.md
+
+---
 
 
 ## Dependencies
