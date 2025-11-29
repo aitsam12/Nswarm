@@ -46,13 +46,6 @@ Figures in the paper (overview diagram, Scenario A and B block diagrams, and tra
 │   └── figures/
 │       └── block_scenarioB_cropped.pdf # Block diagram (paper)
 │
-├── analysis/
-│   ├── results_ana.py                  # Main analysis script (matching, latency, collisions)
-│   ├── results_ana2.py                 # Variant / additional analysis for Scenario B
-│   └── (generated CSV/TXT outputs)     # e.g. spike_match_results.csv, latency_results.csv, …
-│
-├── overview/
-│   └── overview_pic2_cropped.pdf       # System overview figure used in the paper
 │
 └── README.md
 
