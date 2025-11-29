@@ -25,7 +25,7 @@ End-to-end neuromorphic perception–SpiNNaker–swarm control pipeline used in 
 
 ## Repository Layout
 
-
+```text
 .
 ├── scenario_A/
 │   ├── perception_scenarioA2.py        # Event-based perception + tracking (Scenario A)
@@ -42,6 +42,7 @@ End-to-end neuromorphic perception–SpiNNaker–swarm control pipeline used in 
 │
 └── README.md
 
+```
 ---
 
 
