@@ -16,7 +16,7 @@ Both scenarios use a common architecture:
 
 ## System Overview
 
-![System Overview](overview_pic2_cropped.png)
+![System Overview](overview_pic2_cropped.pdf)
 
 *Figure 1: End-to-end neuromorphic perception–SpiNNaker–swarm control pipeline used in the experiments.*
 
